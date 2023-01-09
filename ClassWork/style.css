@@ -3,21 +3,56 @@ body{
 }
 img{
     height: 250px;
-    width: 410px;
+    width: 450px;
     border-radius: 30px;
-
+    display: block;
+    margin: auto;
 
 }
 .container{
     background-color:white;
     display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 15px;
     margin: 20px;
-    width: 500px;
-    border-radius: 20px;
+    width: 480px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px gray;
+}
+#heading{
+    margin-left: 20px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 p{
+    padding-left: 20px;
     display: inline-block;
 }
 hr{
     width: 95%;
+    margin-bottom: 0px;
+}
+#p1{
+
+    color: blueviolet;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#p2{
+    font-weight: 900;
+    text-decoration: line-through;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#off{
+    background-color:rgb(56, 255, 189);
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    padding: 10px;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*.incontainer{
+    background-color: aqua;
+
 }
