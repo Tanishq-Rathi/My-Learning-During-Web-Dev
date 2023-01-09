@@ -1,0 +1,23 @@
+body{
+    background-color: whitesmoke;
+}
+img{
+    height: 250px;
+    width: 410px;
+    border-radius: 30px;
+
+
+}
+.container{
+    background-color:white;
+    display: inline-block;
+    margin: 20px;
+    width: 500px;
+    border-radius: 20px;
+}
+p{
+    display: inline-block;
+}
+hr{
+    width: 95%;
+}
