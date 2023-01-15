@@ -6,39 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flex Boxes</title>
     <style>
+      
         .container{
             display: flex;
             flex-direction: row;
-            /* height: 400px; */
+            height: 400px; 
             flex-wrap: wrap;
-             align-items:baseline; 
+             align-items:center;
             justify-content:center;
-            background-color: dodgerblue;
-            
+           
+            background-color: #f1f1f1; 
         }
         .box{
-            width: 50px; 
-            margin: 10px;
+            flex-basis: 150 px;
+            box-sizing:content-box;
+            /* height: 80px; */
+            width: 10px;    
+            color:white;
+            border: 1px solid brown;  
             padding: 20px;
-            background-color: #fff;
+            /* margin: 10px; */
+            background-color: dodgerblue;
+        }
+        /* #box3{
+            flex-grow: 1;
+        } */
+        #box2{
+            /* width: 100px; */
+            /* flex-shrink: 1; */
+        }
+        #box9{
+            /* width: 100px; */
+            /* flex-shrink: 8; */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="box">1</div>
-        <div class="box">2</div>
-        <div class="box">3</div>
-        <div class="box">4</div>
-        <div class="box">5</div>
-        <div class="box">6</div>
-        <div class="box">7</div>
-        <div class="box">8</div>
-        <div class="box">9</div>
-        <div class="box">10</div>
-        <div class="box">11</div>
-        <div class="box">12</div>
-        <div class="box">13</div>
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">3</div>
+        <div class="box" id="box4">4</div>
+        <div class="box" id="box5">5</div>
+        <div class="box" id="box6">6</div>
+        <div class="box" id="box7">7</div>
+        <div class="box" id="box8">8</div>
+        <div class="box" id="box9">9</div>
+        <!-- <div class="box" id="box10">10</div>
+        <div class="box" id="box11">11</div>
+        <div class="box" id="box12">12</div>
+        <div class="box" id="box13">13</div> -->
     </div>
+
 </body>
 </html>
