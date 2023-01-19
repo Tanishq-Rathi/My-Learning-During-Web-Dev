@@ -13,9 +13,13 @@
     background-color: aqua;
     border: 3px solid black;
     width: auto;
-    height: 80px;
+    height: auto;
 }
 #box1{
     grid-column-start: 1;
     grid-column-end: 3;
+}
+#box3{
+grid-row-start:2 ;
+grid-row-end: 4;
 }
