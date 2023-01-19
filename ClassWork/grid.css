@@ -5,11 +5,17 @@
     display: grid;
 
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 90px 90px 90px 90px;
+    grid-template-rows:repeat(4,1fr);
+    gap: 5px;
+    overflow: auto;
 }
 .box{
     background-color: aqua;
     border: 3px solid black;
-    width: 80px;
+    width: auto;
     height: 80px;
+}
+#box1{
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
