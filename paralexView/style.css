@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-margin: 12rem;
 }
 #wrapper{
     height: 100vh;
@@ -9,6 +11,56 @@
     overflow-y: auto;
     perspective: 10px;
     /* margin: 5px; */
+}
+.dropbtn {
+    cursor: pointer;
+  }
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color:rgba(95, 100, 109, 0.514);
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 0.6rem;
+  }
+  .dropdown-content a{
+      color: white;
+      padding: 1rem 1rem;
+      text-decoration: none;
+      /* display: flex;
+      flex-direction: column; */
+    }
+    .dropdown-content a:hover{
+        background-color: rgba(95, 100, 109, 0.607);
+        border-radius: 5px;
+    }
+    .dropbtn:hover  .dropdown-content{
+        display: flex;
+        flex-direction: row;
+    }
+    /* .dropbtn:hover{
+        background-color: aqua;
+    } */
+.menu{
+    position: relative;
+    transform-style: preserve-3d ;
+    /* transform: translateZ(-60px); */
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 0.3rem;
+    background-color:rgba(109, 133, 154, 0.719);
+    color: white;
+    font-family:'Poppins', sans-serif ;
+}
+.menu_items{
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.menu_items:hover{
+background-color: rgb(95,100,109);
 }
 .container{
     position: relative;
@@ -56,8 +108,13 @@ section{
 .text{
     font-family: 'Poppins', sans-serif;
     font-size: 1.3rem;
-    padding: 0 2rem;
-    margin: 4rem 0;
+    padding: 0 rem;
+    margin-top:  4rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.mg{
+    margin-bottom: 2rem;
 }
 .bg{
     position: relative;
@@ -70,6 +127,7 @@ section{
 .desc{
     position: absolute;
     background-color: white;
+    border-radius: 1rem;
     color: black;
     padding: 0.5rem 2rem;
     top: 50%;
