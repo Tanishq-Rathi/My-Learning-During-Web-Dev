@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Poppins:wght@600&family=Roboto+Flex:opsz,wght@8..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Poppins:wght@400;500;600&family=Roboto+Flex:opsz,wght@8..144,700&display=swap');
 *{
     padding: 0px;
     margin: 0px;
@@ -36,26 +36,67 @@
     width: 2rem;
 }
 
-/* .container{
-    border: 1px solid black;
-    background-color: yellow;
-    height: 700px;
-    width: 504px;
-    display: grid;
-    grid-template-rows: 30px 1fr 30px;
-    grid-template-columns: 100px 400px;
+.container{
 
-    grid-gap: 3px;
-    grid-template-areas: 
-    "hd hd"
-    "side main"
-    "ft ft";
+    /* border: 1px solid black;
+    background-color: yellow; */
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-rows:repeat(3 ,1fr);
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+    /* padding-top: 2rem; */
+    padding: 10rem 3rem;
+
 }
 .box{
-    border: 3px solid rebeccapurple;
-    background-color: aquamarine;
+    /* width: 100%; */
+    transform-style: preserve-3d;
+    transform: perspective(10px);
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-right:1rem ;
+    padding-left:1rem ;
+    padding-top:1.3rem ;
+    padding-bottom: 1.2rem ;
+    border: 3px solid rgba(165, 165, 166, 0.441);
+    /* background-color: aquamarine; */
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.18);    
 }
-#header{
+.second{
+    font-family: 'Lato', sans-serif;
+    font-size: x-large;
+    font-weight: 800;
+}
+.fst-text{
+    color: rgb(79, 79, 224);
+    margin-bottom: 8px;
+}
+.small-text{
+    font-family: 'Poppins', sans-serif;
+    color: darkgrey;
+}
+.info{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    font-weight: 600;
+}
+.last-line{
+    color: rgba(72, 72, 225, 0.877);;
+}
+#design{
+    color: rgb(1, 167, 1);
+}
+.box:hover{
+    
+    transition:  0.5s;
+    transform : translateZ(2px);
+}
+/* #header{
     grid-area: hd;
 }
 #footer{
@@ -66,4 +107,4 @@
 }
 #content{
     grid-area: main;
-} */
+} */ 
