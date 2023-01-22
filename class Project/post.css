@@ -9,9 +9,10 @@
 
     grid-gap: 3px;
     grid-template-areas: 
-    "hd hd"
-    "side main"
-    "ft ft";
+    "hd"
+    "side"
+    "main"
+    "ft";
 }
 .box{
     border: 3px solid rebeccapurple;
