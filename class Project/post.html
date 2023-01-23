@@ -27,7 +27,7 @@
         <div class="box" id="header">
             <h1 class="heading">Sample blog post</h1>
             <p class="date">
-                January 1,2014 <span><a href="#">Mark</a></span>
+                January 1,2014 by <span class="spn-text"><a href="#"> Mark</a></span>
             </p>
             <p class="info">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
@@ -36,11 +36,11 @@
                 temporibus magnam excepturi vitae perspiciatis? Officia eveniet dolor
                 explicabo.
             </p>
-            <hr />
+            <hr style=" border: 0.5px solid rgba(180, 180, 180, 0.62);">
             <p class="info">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti
                 ipsum magnam facilis labore unde saepe! Iusto sequi excepturi,
-                inventore dolorem, fugiat veritatis autem voluptates tempore cumque
+                inventore dolorem, <span ><a href="#" class="spn-text-info"> fugiat veritatis autem voluptates tempore</a></span>  cumque
                 corporis nemo. Suscipit, eos doloribus minima quibusdam laborum aut
                 nesciunt, voluptatem reprehenderit quas placeat labore tenetur vitae
                 dicta eum unde obcaecati velit illum! Saepe voluptatibus cum omnis
@@ -78,55 +78,65 @@
                 exercitationem eos omnis veritatis, quos, natus totam dicta quaerat suscipit est! Tempora deserunt
                 distinctio error doloremque minima rem expedita?</p>
 
-            <div class="list info" style="padding-left:40px ;">
+            <div class="list-tye info" style="padding-left:40px ;">
                 <ol>
-                    <li class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                    <li class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                    <li class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li class="info-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li class="info-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li class="info-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                 </ol>
             </div>
             <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corporis ex pariatur vel
                 optio soluta facilis assumenda, quas officiis omnis, adipisci commodi harum itaque reiciendis, aliquam
                 eaque dignissimos error. Voluptatibus!</p>
-            <div class="list info" style="padding-left:40px ;">
+            <div class="list-tye info" style="padding-left:40px ;">
                 <ol>
-                    <li class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                    <li class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                    <li class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li class="info-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li class="info-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li class="info-list">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
                 </ol>
             </div>
             <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corporis ex pariatur vel
                 optio soluta facilis assumenda, quas officiis omnis, adipisci commodi harum itaque reiciendis, aliquam
                 eaque dignissimos error. Voluptatibus!</p>
         </div>
+<!-- 2nd content -->
+
+
 
         <div class="box" id="sidebar">
+            <div class="about">
             <p class="title">About</p>
             <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque ut excepturi omnis
                 dignissimos accusantium voluptatum est, sunt odit veritatis vitae, doloribus deserunt fugit eaque
                 fugiat, laborum dolorum molestiae quia autem aspernatur cum minus nobis. Tempora, voluptas adipisci rem
                 dignissimos maiores fugit asperiores possimus quibusdam atque?</p>
-            <div class="box" id="content">
-                <p class="title">Archives</p>
-                <a href="#" class="date">March 2014</a>
-                <a href="" class="date"> Feburary 2014</a>
-                <a href="#" class="date">March 2014</a>
-                <a href="" class="date"> Feburary 2014</a>
-                <a href="#" class="date">March 2014</a>
-                <a href="" class="date"> Feburary 2014</a>
-                <a href="#" class="date">March 2014</a>
-                <a href="" class="date"> Feburary 2014</a>
-                <a href="#" class="date">March 2014</a>
-                <a href="" class="date"> Feburary 2014</a>
-                <a href="#" class="date">March 2014</a>
-                <a href="" class="date"> Feburary 2014</a>
-                
             </div>
             <div class="box" id="content">
+                <div class="archive">
+                <p class="title">Archives</p>
+                    <ul>
+                <li><a href="" class="date"> Feburary 2014</a></li>
+                <li><a href="" class="date"> Feburary 2014</a></li>
+                <li><a href="" class="date"> Feburary 2014</a></li>
+                <li><a href="" class="date"> Feburary 2014</a></li>
+                <li><a href="" class="date"> Feburary 2014</a></li>
+                <li><a href="" class="date"> Feburary 2014</a></li>
+                <li><a href="" class="date"> Feburary 2014</a></li>
+                <li><a href="" class="date"> Feburary 2014</a></li>
+                <li><a href="" class="date"> Feburary 2014</a></li>
+                <li><a href="" class="date"> Feburary 2014</a></li>
+                <li><a href="" class="date"> Feburary 2014</a></li>                        
+                    </ul>
+                </div>
+            </div>
+            <div class="box" id="content">
+               <div class="elsewhere">
                 <p class="title">Elsewhere</p>
-                <a href="#" class="date">March 2014</a>
-                <a href="" class="date"> Feburary 2014</a>
-                <a href="#" class="date">March 2014</a>
+                   
+                <li> <a href="#" class="date">Facebook</a></li>
+                <li> <a href="#" class="date">Telegram</a></li>
+                <li> <a href="#" class="date">Instagram</a></li>
+            </div>
                 
             </div>
         </div>
