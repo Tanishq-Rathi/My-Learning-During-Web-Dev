@@ -48,12 +48,12 @@
     grid-gap: 1rem;
     /* padding-top: 2rem; */
     padding: 10rem 3rem;
-
+    transition: transform 3s cubic-bezier(0.19, 1, 0.35, 0.25);
 }
 .box{
     /* width: 100%; */
     transform-style: preserve-3d;
-    transform: perspective(10px);
+    transform: perspective(10px) ;
     margin-bottom: 2rem;
     margin-left: 3rem;
     margin-right: 3rem;
@@ -94,7 +94,8 @@
 .box:hover{
     
     transition:  0.5s;
-    transform : translateZ(2px);
+    transform : translateZ(2px) ;
+    
 }
 /* #header{
     grid-area: hd;
