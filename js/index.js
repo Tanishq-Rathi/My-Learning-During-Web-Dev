@@ -52,9 +52,9 @@ let rectangle={
 // }
 
 // Object creation using constructor function///////////////////////
-//let creatRectangleObj1 = new Rectangle(4,8);
+// let creatRectangleObj1 = new Rectangle(4,8);
 
-// console.log(creatRectangleObj1.length)
+// console.log(creatRectangleObj1)
 
 // creatRectangleObj1.color='red'
 // console.log(creatRectangleObj1)
@@ -74,22 +74,22 @@ let rectangle={
 // console.log(dest)
 
 //#oBject cloning 2
-// let src={
-//     a:1,
-//     b:2,
-//     c:3
-// };
+let src={
+    a:1,
+    b:2,
+    c:3
+};
 
-// let dest = Object.assign({},rectangle,src)
-// console.log(dest)
-// rectangle.length++
-// console.log(dest)
+let dest = Object.assign({},rectangle)
+console.log(dest)
+rectangle.length++
+console.log(dest)
 
 //#oBject cloning 3
-let src={
-    a:10,
-    b:20,
-    c:30
-};
-let dest={...rectangle }
-console.log(dest)
+// let src={
+//     a:10,
+//     b:20,
+//     c:30
+// };
+// let dest={...rectangle }
+// console.log(dest)
