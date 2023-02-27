@@ -1,11 +1,11 @@
-console.log("Let's Start")
-let rectangle={
-    length:1,
-    breadth:2,
-    draw: function () {
-        console.log('Draw')
-    }
-}
+// console.log("Let's Start")
+// let rectangle={
+//     length:1,
+//     breadth:2,
+//     draw: function () {
+//         console.log('Draw')
+//     }
+// }
 /////////////////////////////////////factory function //////////////////////////////////////////
 // function createRectangle(){
 //     return rectangle={
@@ -74,16 +74,16 @@ let rectangle={
 // console.log(dest)
 
 //#oBject cloning 2
-let src={
-    a:1,
-    b:2,
-    c:3
-};
+// let src={
+//     a:1,
+//     b:2,
+//     c:3
+// };
 
-let dest = Object.assign({},rectangle)
-console.log(dest)
-rectangle.length++
-console.log(dest)
+// let dest = Object.assign({},rectangle)
+// console.log(dest)
+// rectangle.length++
+// console.log(dest)
 
 //#oBject cloning 3
 // let src={
